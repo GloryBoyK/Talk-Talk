@@ -17,11 +17,11 @@ import java.util.Scanner;
         System.out.println("A chat with the bridge keeper. Who would cross the Bridge of Death must answer me these questions three, ere the other side he see.");
         //Ask for the user's name
         Scanner s=new Scanner(System.in);
-        System.out.print(" What is your name? ");
+        System.out.print("Question 1: What is your name? ");
         name=s.nextLine();
-        System.out.print("What is your quest? ");
+        System.out.print("Question 2: What is your quest? ");
         quest=s.nextLine();
-        System.out.print("What is your favorite color? ");
+        System.out.print("Question 3: What is your favorite color? ");
         color=s.nextLine();
         s.close();
 
